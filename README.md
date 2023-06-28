@@ -66,6 +66,21 @@ Algorithm:
 
 - Repeat Steps 2-4 for 𝑇 iterations
 
-## Results
+## Result: Recommending Movies
 
-To be added.
+In this example, we are required to recommend five movies that are similar to a randomly chosen movie: “Dead Man Walking (1995)”.  This movie has a Genre of “Crime, Drama”. After utilizing the developed recommendation system to recommend five movies, we will compare the genre of the recommended movies to the genre of the “Dead Man Walking (1995)”. We expect that the genre of the recommended movies be similar to that of “Dead Man Walking (1995)”.
+
+The table below shows the five movies that were recommended. The genre of the recommended movies show high relevance to the original movie. That is, four out of the five recommended movies have either "Crime" or "Drama" (or both) as their genre.
+
+|                     | Movie                   | Genre |
+|      :--------:     |   :-------:             |:--------:|
+| Original Movie      | Dead Man Walking (1995) | **Crime**, **Drama**  |
+| Recommended Movie 1 | Get Shorty (1995)       | Comedy, **Crime**, Thriller |
+| Recommended Movie 2 | Gandhi (1982)           | **Drama** |
+| Recommended Movie 3 | Tropic Thunder (2008)  | Action, Adventure, Comedy, War |
+| Recommended Movie 4 | In Bruges (2008)       | Comedy, **Crime**, **Drama**, Thriller |
+| Recommended Movie 5 | Aviator, The (2004)     | **Drama** |
+
+This example shows that the developed recommendation system can be utilized to recommend for users movies similar to a movie they liked.
+
+On the other hand, the recommendation system can be used to recommend movies based on the data of a user, that is, based on the ratings the user provided for the movies he/she watched previously.
